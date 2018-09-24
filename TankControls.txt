@@ -1,0 +1,28 @@
+Virtual Control & "Fly-by-wire"
+
+_______________________________________________________________________________
+Intention	Manual Control	Fly-by-Wire Control	Actuator(s)
+_______________________________________________________________________________
+ Forward	 Symmetric	 Left Stick or 		 Both Tracks Forward -
+		 Triggers	 W Key			 Same Speed
+_______________________________________________________________________________
+ Backwards	 Symmetric	 Left Stick Backward	 Both Tracks Backwards -
+ /Braking	 Bumpers	 or S Key		 Same Speed
+_______________________________________________________________________________
+ Rotate Tank	 Asymmetric 	 Left Stick Left or	 Right Track Forward -
+ /Turn Left	 Trigger, 	 A Key or Combo	A	 Left Track Backwards
+		 Favor Left	 and W Keys
+_______________________________________________________________________________
+Rotate Tank	 Asymmetric	 Right Stick Right	 Left Track Forward -
+ /TurnRight	 Trigger,	 or D Key or Combo D	 Right Track Backwards
+		 Favor Right	 and W Keys	 
+_______________________________________________________________________________
+Rotate Turret	 		 Left Arrow Key		 Turret Rotates Left
+ Left
+_______________________________________________________________________________
+Rotate Turret			 Right Arrow Key	 Turret Rotates Right
+ Right
+_______________________________________________________________________________
+Move Barrel Up			 Up Arrow Key		 Barrel Moves Up
+_______________________________________________________________________________
+Move Barrel Down		 Down Arrow Key		 Barrel Moves Down
