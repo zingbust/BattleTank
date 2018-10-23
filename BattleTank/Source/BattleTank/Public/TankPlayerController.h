@@ -6,6 +6,8 @@
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h" // must be the last #include
 
+class ATank;
+
 /**
  * 
  */
@@ -13,8 +15,9 @@ UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
+
 private:
-	class ATank* GetControlledTank() const;
+	ATank* GetControlledTank() const;
 
 	virtual void BeginPlay() override;
 
