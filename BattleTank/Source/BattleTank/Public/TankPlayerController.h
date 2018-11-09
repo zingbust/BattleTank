@@ -38,7 +38,7 @@ private:
 
 	bool GetLookDirection(FVector2D ScreenLocation, FVector& LookDirection) const;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditDefaultsOnly)
 	float LineTraceRange = 1000000.0;
 
 	bool GetLookVectorHitLocation(FVector LookDirection, FVector &OutHitLocation) const;
@@ -46,7 +46,4 @@ private:
 public:
 
 	ATank* OurTank;
-	void LogOutput(ATank *ThisTank);
-
-
 };
